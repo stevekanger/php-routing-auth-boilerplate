@@ -26,11 +26,10 @@ class Authenticator {
     }
 
     public static function setUser(array $user) {
-        $_SESSION['user'] = [
+        Session::set('user', [
             'id' => $user['id'],
-            'email' => $user['email']
-        ];
-
+            'email' => $user['email'],
+        ]);
         session_regenerate_id(true);
     }
 
