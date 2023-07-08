@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: 'Tahoma', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  display: block;
+  padding: 0 2rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  color: white;
+  background: darkslategray;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+}
+
+nav ul li a {
+  color: #efefef;
+  text-decoration: none;
+}
+
+nav p {
+  margin-left: auto;
+}
+
+nav button {
+  margin-left: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 0 auto;
+  padding: 1rem;
+  background: #efefef;
+}
+
+input {
+  display: block;
+}

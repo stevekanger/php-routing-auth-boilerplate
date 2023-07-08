@@ -1,0 +1,1 @@
+<h1><?php $data['error'] ?></h1>

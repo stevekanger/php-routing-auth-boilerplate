@@ -1,0 +1,20 @@
+{
+  "name": "wamo/routing-auth-boilerplate",
+  "authors": [
+    {
+      "name": "SteveKanger"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "scripts": {
+    "dev": [
+      "Composer\\Config::disableProcessTimeout",
+      "cd public && php -S localhost:5000"
+    ]
+  }
+}
